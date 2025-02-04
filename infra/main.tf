@@ -10,17 +10,17 @@ terraform {
 
 variable "suscription_id" {
     type = string
-    description = "Azure subscription id"
+    description = "b39ba607-2bad-4717-b6c2-10b1a82cbb7c"
 }
 
 variable "sqladmin_username" {
     type = string
-    description = "Administrator username for server"
+    description = "adminsql"
 }
 
 variable "sqladmin_password" {
     type = string
-    description = "Administrator password for server"
+    description = "upt.2025"
 }
 
 provider "azurerm" {
