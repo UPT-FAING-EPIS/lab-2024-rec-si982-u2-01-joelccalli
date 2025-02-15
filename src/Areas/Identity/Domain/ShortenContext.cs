@@ -1,9 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-namespace Shorten.Models;
-/// <summary>
-/// Clase de infraestructura que representa el contexto de la base de datos
-/// </summary>
-using Microsoft.EntityFrameworkCore;
+
 namespace Shorten.Areas.Domain;
 /// <summary>
 /// Clase de infraestructura que representa el contexto de la base de datos
