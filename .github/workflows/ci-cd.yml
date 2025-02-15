@@ -1,7 +1,7 @@
 name: Construcción y despliegue de una aplicación MVC a Azure
 
 env:
-  AZURE_WEBAPP_NAME: upt-awa-XXX  # Aqui va el nombre de su aplicación
+  AZURE_WEBAPP_NAME: upt-awa-782  # Aqui va el nombre de su aplicación
   DOTNET_VERSION: '8'                     # la versión de .NET
 
 on:
@@ -24,7 +24,7 @@ jobs:
         with:
             registry: ghcr.io
             username: ${{github.actor}}
-            password: ${{secrets.GITHUB_TOKEN}}
+            password: ${{secrets.GHCR_TOKEN}}
 
       - name: 'Build Inventory Image'
         run: |
